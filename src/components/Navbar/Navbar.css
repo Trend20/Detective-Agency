@@ -48,7 +48,7 @@ span{
 }
 
 .navbar ul li:hover{
-  color: rgb(15, 167, 218);
+  color: rgb(56, 101, 233);
   transition: .3s;
 }
 
@@ -61,7 +61,7 @@ span{
 
 .icon{
   margin-right: 10px;
-  background: rgb(15, 167, 218);
+  background: rgb(56, 101, 233);
   cursor: pointer;
   color: black;
   display: flex;

@@ -1,0 +1,121 @@
+.hero{
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  padding: 100px;
+  width: 100%;
+  background: url(/public/img/homepage.webp);
+  color: #fff;
+}
+
+.hero hr{
+  width: 50%;
+  margin-left: 100px;
+  background-color: transparent;
+  margin-top: 100px;
+  opacity: .3;
+}
+
+.hero p{
+  display: flex;
+  width: 50%;
+  margin-left: 100px;
+  margin-top: 40px;
+  background-color: transparent;
+  font-size: 1.2rem;
+}
+
+.hero h1{
+  margin-left: 100px;
+  margin-top: 20px;
+  display: flex;
+  font-size: 5rem;
+  background-color: transparent;
+}
+
+.hero-links{
+  margin-left: 100px;
+  margin-top: 30px;
+  background-color: transparent;
+  display: flex;
+  width: 50%;
+}
+
+.hero-links button{
+  display: flex;
+  border-radius: 50px;
+  padding: 10px;
+  outline: none;
+  cursor: pointer;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #fff;
+  width: 30%;
+  align-items: center;
+  justify-content: center;
+}
+
+#contact{
+  /* background: rgb(15, 167, 218); */
+  background-color: rgb(56, 101, 233);
+  border: none;
+}
+
+#contact:hover{
+  background: rgb(15, 167, 218);
+  transition: .3s;
+  opacity: .8;
+}
+
+#practice{
+  background: #000;
+  border: 1px solid #fff;
+  margin-left: 20px;
+}
+
+#practice:hover{
+  background: #fff;
+  border: 1px solid #000;
+  color: #000;
+  transition: .3s;
+  opacity: .8;
+}
+
+.bottom-section{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: transparent !important;
+  padding-top: 100px;
+  margin-top: 200px;
+  margin-left: 100px;
+  grid-gap: 20px;
+}
+
+.section-item{
+  display: flex;
+  background-color: transparent !important;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.section-item h3{
+  background-color: transparent;
+}
+
+span{
+  margin-right: 5px;
+  background-color: transparent;
+  color: rgb(56, 101, 233);
+  font-weight: 500;
+} 
+
+.bottom-section p{
+  display: flex;
+  width: 100%;
+  margin-left: 0px;
+  margin-top: 5px;
+  background-color: transparent;
+  font-size: 1rem;
+}
