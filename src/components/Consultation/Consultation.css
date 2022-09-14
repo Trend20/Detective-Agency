@@ -1,0 +1,78 @@
+.consultation{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+  padding: 100px;
+  background: url(/public/img/car.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: auto;
+}
+
+.consultation p{
+    color: grey;
+    font-size: 3rem;
+    margin-left: 100px;
+    background: transparent;
+  }
+  
+  .consultation h1{
+    font-size: 4rem;
+    width: 50% ;
+    display: flex;
+    color: #fff;
+    font-weight: 600;
+    margin-left: 100px;
+    background: transparent;
+  }
+
+  .consultation span{
+    color: #fff;
+    margin-left: 100px;
+    margin-top: 10px;
+  }
+
+  .consultation span a{
+    background: transparent !important;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #6bf !important;
+  }
+
+  .consultation form{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 50%;
+    background: transparent;
+  }
+
+  .consultation form input,
+  .consultation form button{
+    padding: 15px;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    margin-top: 22px !important;
+    width: 90%;
+  }
+
+  .consultation form button{
+    background-color: rgb(56, 101, 233);
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+
+  .consultation form button:hover{
+    background: rgb(15, 167, 218);
+    transition: .3s;
+    opacity: .8;
+  }
+
