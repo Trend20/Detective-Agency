@@ -1,0 +1,48 @@
+.services{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 100px;
+  justify-content: center;
+  margin-left: 70px;
+}
+
+p{
+  color: grey;
+  font-size: 3rem;
+}
+
+h1{
+  font-size: 5rem;
+  width: 100%;
+  display: flex;
+  color: #fff;
+  font-weight: 600;
+}
+
+.details-container{
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  width: 90%;
+  grid-gap: 20px;
+}
+
+.service{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding: 20px;
+  background: #1e1e28
+}
+
+.service img{
+  max-width: 20%;
+}
+
+.service h3{
+  margin-top: 20px;
+}
+
+.service p{
+  font-size: 1rem;
+}

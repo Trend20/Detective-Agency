@@ -12,7 +12,7 @@ const Services = () => {
           <p>Do you have doubts about the applicant's honesty? We will do a full check!</p>
         </div>
         <div className="service">
-          <img src="/img/investigations.svg" alt="investigations" />
+          <img src="/img/investigation.svg" alt="investigations" />
           <h3>Criminal Investigations</h3>
           <p>Our detectives can conduct their own investigation to help the police.</p>
         </div>

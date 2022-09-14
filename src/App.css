@@ -6,4 +6,5 @@
   box-sizing: border-box;
   font-family: 'Hind Vadodara', sans-serif;
   background: #222;
+  overflow-x: hidden;
 }
