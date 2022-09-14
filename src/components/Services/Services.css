@@ -35,6 +35,7 @@ h1{
   height: 250px;
   background: #1e1e28;
   align-items: flex-start;
+  border-radius: 10px;
 }
 
 .service img{
