@@ -4,7 +4,7 @@
   width: 100%;
   padding: 100px;
   justify-content: center;
-  margin-left: 70px;
+  margin-left: 100px;
 }
 
 p{
@@ -31,18 +31,29 @@ h1{
   display: flex;
   width: 100%;
   flex-direction: column;
-  padding: 20px;
-  background: #1e1e28
+  padding: 25px;
+  height: 250px;
+  background: #1e1e28;
+  align-items: flex-start;
 }
 
 .service img{
-  max-width: 20%;
+  max-width: 50%;
+  height: 100%;
+  background: transparent;
 }
 
 .service h3{
+  margin-top: 5px;
+  background: transparent;
+  height: 100%;
   margin-top: 20px;
+  font-size: 1.5rem;
+  color: #6bf !important
 }
 
 .service p{
   font-size: 1rem;
+  background: transparent;
+  height: 100%;
 }
