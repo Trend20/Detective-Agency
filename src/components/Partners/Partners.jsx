@@ -40,26 +40,6 @@ const Partners = () => {
           <hr />
           <p>Cases solved in 2019</p>
         </div>
-        <div className="stat">
-          <h3>17+</h3>
-          <hr />
-          <p>Detectives</p>
-        </div>
-        <div className="stat">
-          <h3>10</h3>
-          <hr />
-          <p>Labs around the world</p>
-        </div>
-        <div className="stat">
-          <h3>96%</h3>
-          <hr />
-          <p>Successful outcomes</p>
-        </div>
-        <div className="stat">
-          <h3>20</h3>
-          <hr />
-          <p>Clients contact us every week</p>
-        </div>
       </div>
     </div>
   )
