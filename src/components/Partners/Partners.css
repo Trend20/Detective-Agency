@@ -57,17 +57,11 @@
   border-radius: 10px;
 }
 
-.stat p{
-  font-size: 1rem;
-  color: #fff;
-  opacity: .6;
-  margin-top: 20px;
-  background-color: transparent !important;
-}
 
 .stat h3{
   font-size: 1rem;
-  color: #fff;
+  color: #fff !important;
+  opacity: 1;
   opacity: .6;
   margin-top: 20px;
   font-size: 3rem;
@@ -77,4 +71,15 @@
 .stat hr{
   width: 20%;
   margin-top: 10px;
+  color: #6bf !important;
+}
+
+
+.stat p{
+  font-size: .8rem;
+  font-weight: 300;
+  color: #fff;
+  opacity: .6;
+  margin-top: 20px;
+  background-color: transparent !important;
 }
