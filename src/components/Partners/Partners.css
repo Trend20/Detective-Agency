@@ -1,0 +1,80 @@
+.partners{
+  display: flex;
+  width: 100%;
+  padding: 100px;
+  background-color: transparent;
+  height: auto;
+}
+
+.partners-description{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin-left: 100px;
+  background-color: transparent;
+}
+
+.partners-description p{
+  font-size: 1.5rem;
+}
+
+.partners-description h1{
+  font-size: 3rem;
+  margin-top: 10px;
+}
+
+#mission{
+  font-size: 1.2rem;
+  color: #fff;
+  opacity: .8;
+  margin-top: 20px;
+  line-height: 1.7;
+}
+
+#mission strong{
+  font-weight: 500;
+  background-color: transparent;
+
+  color: #6bf;
+}
+
+.partners-stats{
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  width: 60%;
+  grid-gap: 20px;
+  background-color: transparent;
+}
+
+.stat{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #1e1e28;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.stat p{
+  font-size: 1rem;
+  color: #fff;
+  opacity: .6;
+  margin-top: 20px;
+  background-color: transparent !important;
+}
+
+.stat h3{
+  font-size: 1rem;
+  color: #fff;
+  opacity: .6;
+  margin-top: 20px;
+  font-size: 3rem;
+  background-color: transparent !important;
+}
+
+.stat hr{
+  width: 20%;
+  margin-top: 10px;
+}
