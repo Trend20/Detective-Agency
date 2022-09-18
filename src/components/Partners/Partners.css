@@ -83,3 +83,7 @@
   margin-top: 20px;
   background-color: transparent !important;
 }
+
+.partners-stats:nth-child(2){
+  flex: 6;
+}
