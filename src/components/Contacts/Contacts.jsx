@@ -12,12 +12,12 @@ const Contacts = () => {
       </form>
 
       <div className="contact-description">
-        <p>Request</p>
+        <p id='top'>Request</p>
         <h1>Contacts</h1>
-        <span>
+        <span className='top'>
           If you have any questions or want to schedule a meeting with our private investigator, fill out the form, please.
         </span>
-        <span>
+        <span className='top' id='main'>
           We guarantee the confidentiality of everything that you tell us during a personal conversation. 
           The consultation <strong>does not oblige you</strong> to order our services, we will destroy all the materials after the consultation.
         </span>

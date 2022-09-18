@@ -79,3 +79,51 @@ form{
 p{
   font-size: 1rem !important;
 }
+
+#top{
+  font-size: 2rem !important;
+}
+
+.contact-description h1{
+  margin-top: -10px !important;
+  font-size: 4rem !important;
+}
+
+.top{
+  color: #fff;
+  margin-top: 20px;
+  font-size: 1.5rem;
+  width: 80%;
+  font-weight: 300;
+}
+
+#main{
+  margin-top: 50px !important;
+  font-size: 1.2rem;
+  width: 80%;
+  font-weight: 100 !important;
+}
+
+strong{
+  color: #6bf !important;
+  font-weight: 300 !important;
+}
+
+.details{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.detail{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 60%;
+}
+
+.detail h3{
+  color: #fff;
+}
+
