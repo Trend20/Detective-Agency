@@ -118,12 +118,22 @@ strong{
 .detail{
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin-top: 20px;
-  width: 60%;
+  margin-top: 10px;
+  width: 70%;
 }
 
 .detail h3{
   color: #fff;
+  width: 30%;
+}
+
+.detail span{
+  width: 70%;
+}
+
+.detail span p{
+  color: #fff;
+  opacity: .7;
+  font-weight: 300;
 }
 
