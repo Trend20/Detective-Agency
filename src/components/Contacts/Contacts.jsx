@@ -1,4 +1,4 @@
-import React from 'react'
+import './Contacts.css';
 
 const Contacts = () => {
   return (
@@ -7,20 +7,20 @@ const Contacts = () => {
         <input type="text" placeholder='Enter your full name'/>
         <input type="tel"  placeholder='Enter your phone number'/>
         <input type="email"  placeholder='Enter your e-mail'/>
-        <textarea name="message" id="message" cols="30" rows="10"></textarea>
-        <input type="submit" value="Send" />
+        <textarea name="message" id="message" cols="10" rows="7" placeholder='Your Message'></textarea>
+        <button type="submit">Send</button>
       </form>
 
       <div className="contact-description">
         <p>Request</p>
         <h1>Contacts</h1>
-        <p>
+        <span>
           If you have any questions or want to schedule a meeting with our private investigator, fill out the form, please.
-        </p>
-        <p>
+        </span>
+        <span>
           We guarantee the confidentiality of everything that you tell us during a personal conversation. 
           The consultation <strong>does not oblige you</strong> to order our services, we will destroy all the materials after the consultation.
-        </p>
+        </span>
         <div className="details">
           <div className="detail">
             <h3>Address</h3>

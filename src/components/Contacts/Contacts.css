@@ -1,0 +1,81 @@
+.contacts{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 100px;
+  background-color: transparent !important;
+  background: url(/public/img/contact.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: auto;
+}
+
+.contacts form{
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  height: auto;
+  background-color: rgba(23, 24, 29, 0.83) !important;
+  padding: 30px;
+  padding-bottom: 50px !important;
+  border-radius: 10px;
+  height: 600px;
+}
+
+.contacts form input, #message{
+  display: flex;
+  background-color: transparent;
+  margin-top: 30px;
+  padding: 10px;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #fff;
+}
+
+
+.contacts form button{
+  padding: 15px;
+  outline: none;
+  border: none;
+  background-color: rgb(56, 101, 233);
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 100px;
+  border-radius: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contacts form button:hover{
+  background: rgb(15, 167, 218);
+  transition: .3s;
+  opacity: .8;
+}
+
+.contact-description{
+  display: flex;
+  flex-direction: column;
+  background-color: transparent !important;
+  width: 50%;
+}
+
+p, 
+h3,
+h1,
+span,
+div,
+strong,
+form{
+  background-color: transparent !important;
+}
+
+p{
+  font-size: 1rem !important;
+}
