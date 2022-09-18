@@ -21,6 +21,14 @@ function App() {
       <Promo />
       <Testimonials />
       <Contacts />
+      <div className="footer">
+        <Navbar />
+        <hr />
+        <div className="footer-text">
+          <p>© Created by DevEnock</p>
+          <p>All rights Reserved</p>
+        </div>
+      </div>
     </>
   );
 }

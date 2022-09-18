@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: center;
   padding: 50px;
+  background-color: transparent !important;
 }
 
 .logo{
@@ -12,11 +13,13 @@
   flex: 3;
   align-items: center;
   justify-content: center;
+  background-color: transparent;
 }
 
 .logo img{
   max-width: 30% !important;
   cursor: pointer;
+  background-color: transparent;
 }
 
 .navbar{
@@ -26,6 +29,7 @@
   align-items: center;
   justify-content: center;
   color: #fff;
+  background-color: transparent;
 }
 
 .navbar ul{
@@ -34,6 +38,7 @@
   width: 70%;
   align-items: center;
   justify-content: space-between;
+  background-color: transparent;
 }
 
 .navbar ul li{
@@ -41,6 +46,7 @@
   display: flex;
   margin-right: 18px;
   font-weight: 400;
+  background-color: transparent;
 }
 
 span{
@@ -57,6 +63,7 @@ span{
   width: 20%;
   justify-content: center;
   align-items: center;
+  background-color: transparent;
 }
 
 .icon{
