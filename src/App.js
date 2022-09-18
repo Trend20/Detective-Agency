@@ -6,6 +6,7 @@ import Navbar from './components/Navbar/Navbar';
 import Partners from './components/Partners/Partners';
 import Promo from './components/Promo/Promo';
 import Services from './components/Services/Services';
+import Testimonials from './components/Testimonials/Testimonials';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <About />
       <Partners />
       <Promo />
+      <Testimonials />
     </>
   );
 }
