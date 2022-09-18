@@ -66,7 +66,7 @@
   width: 50%;
 }
 
-p, 
+/* p, 
 h3,
 h1,
 span,
@@ -74,10 +74,11 @@ div,
 strong,
 form{
   background-color: transparent !important;
-}
+} */
 
 p{
   font-size: 1rem !important;
+  background-color: transparent !important;
 }
 
 #top{
@@ -87,6 +88,7 @@ p{
 .contact-description h1{
   margin-top: -10px !important;
   font-size: 4rem !important;
+  background-color: transparent !important;
 }
 
 .top{
@@ -107,12 +109,14 @@ p{
 strong{
   color: #6bf !important;
   font-weight: 300 !important;
+  background-color: transparent !important;
 }
 
 .details{
   display: flex;
   flex-direction: column;
   width: 100%;
+  background-color: transparent !important;
 }
 
 .detail{
@@ -120,11 +124,13 @@ strong{
   align-items: center;
   margin-top: 10px;
   width: 70%;
+  background-color: transparent !important;
 }
 
 .detail h3{
   color: #fff;
   width: 30%;
+  background-color: transparent !important;
 }
 
 .detail span{
