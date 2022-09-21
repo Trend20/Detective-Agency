@@ -119,3 +119,115 @@ span{
   background-color: transparent;
   font-size: 1rem;
 }
+
+/* END OF WEB VIEW STYLES */
+
+
+/* RESPONSIVE HERO */
+@media (max-width: 468px){
+  .hero{
+    height: auto;
+    padding: 20px;
+    width: 100%;
+    background: none;
+    margin-top: 50px;
+  }
+  
+  .hero hr{
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+  
+  .hero p{
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 25px;
+    font-size: 1.2rem !important;
+  }
+  
+  .hero h1{
+    margin-left: 0px;
+    margin-top: 20px;
+    display: flex;
+    font-size: 3rem;
+  }
+  
+  .hero-links{
+    margin-left: 0px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .hero-links button{
+    width: 50%;
+  }
+  
+  #contact{
+    background-color: rgb(56, 101, 233);
+    border: none;
+  }
+  
+  #contact:hover{
+    background: rgb(15, 167, 218);
+    transition: .3s;
+    opacity: .8;
+  }
+  
+  #practice{
+    background: #000;
+    border: 1px solid #fff;
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  
+  #practice:hover{
+    background: #fff;
+    border: 1px solid #000;
+    color: #000;
+    transition: .3s;
+    opacity: .8;
+  }
+  
+  .bottom-section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: transparent !important;
+    padding-top: 100px;
+    margin-top: 200px;
+    margin-left: 100px;
+    grid-gap: 20px;
+  }
+  
+  .section-item{
+    display: flex;
+    background-color: transparent !important;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  
+  .section-item h3{
+    background-color: transparent;
+  }
+  
+  span{
+    margin-right: 5px;
+    background-color: transparent;
+    color: rgb(56, 101, 233);
+    font-weight: 500;
+  } 
+  
+  .bottom-section p{
+    display: flex;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 5px;
+    background-color: transparent;
+    font-size: 1rem;
+  }
+}
+
+/* END OF RESPONSIVE STYLES */
