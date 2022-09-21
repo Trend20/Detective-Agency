@@ -78,3 +78,87 @@ span{
   border-radius: 50%;
 }
 
+
+/* RESPONSIVENESS */
+@media (max-width: 468px){
+  
+  .header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color: transparent !important;
+  }
+  
+  .logo{
+    display: flex;
+    width: 20%;
+    flex: 3;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+  }
+  
+  .logo img{
+    max-width: 30% !important;
+    cursor: pointer;
+    background-color: transparent;
+  }
+  
+  .navbar{
+    display: flex;
+    flex: 7;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: transparent;
+  }
+  
+  .navbar ul{
+    display: flex;
+    list-style: none;
+    width: 70%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+  }
+  
+  .navbar ul li{
+    cursor: pointer;
+    display: flex;
+    margin-right: 18px;
+    font-weight: 400;
+    background-color: transparent;
+  }
+  
+  span{
+    margin-right: 5px;
+  }
+  
+  .navbar ul li:hover{
+    color: rgb(56, 101, 233);
+    transition: .3s;
+  }
+  
+  .nav-icons{
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+  }
+  
+  .icon{
+    margin-right: 10px;
+    background: rgb(56, 101, 233);
+    cursor: pointer;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 50%;
+  }  
+}
