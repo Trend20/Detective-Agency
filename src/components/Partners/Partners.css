@@ -87,3 +87,101 @@
 .partners-stats:nth-child(2){
   flex: 6;
 }
+
+
+/* responsive */
+@media (max-width: 468px){
+  .partners{
+    display: flex;
+    width: 100%;
+    padding: 100px 20px;
+    flex-direction: column;
+    background-color: #13131a !important;
+    height: auto;
+  }
+  
+  .partners-description{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0px;
+    background-color: transparent;
+  }
+  
+  .partners-description p{
+    font-size: 1.2rem;
+    background-color: transparent;
+  }
+  
+  .partners-description h1{
+    font-size: 2.5rem;
+    margin-top: 10px;
+    background-color: transparent;
+  }
+  
+  #mission{
+    font-size: 1.1rem !important;
+    color: #fff;
+    opacity: .7;
+    margin-top: 30px;
+    line-height: 1.8;
+    font-weight: 300;
+    width: 100%;
+  }
+  
+  #mission strong{
+    font-weight: 500;
+    background-color: transparent;
+    color: #6bf;
+  }
+  
+  .partners-stats{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+    background-color: transparent;
+  }
+  
+  .stat{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #1e1e28;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border-radius: 10px;
+  }
+  
+  
+  .stat h3{
+    font-size: 1rem;
+    color: #fff !important;
+    opacity: 1;
+    opacity: .6;
+    margin-top: 10px;
+    font-size: 3rem;
+    background-color: transparent !important;
+  }
+  
+  .stat hr{
+    width: 20%;
+    margin-top: 10px;
+    color: #6bf !important;
+  }
+  
+  
+  .stat p{
+    font-size: .8rem;
+    font-weight: 300;
+    color: #fff;
+    opacity: .6;
+    margin-top: 20px;
+    background-color: transparent !important;
+  }
+  
+  .partners-stats:nth-child(2){
+    flex: 6;
+  }
+}

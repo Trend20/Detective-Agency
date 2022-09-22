@@ -64,3 +64,92 @@
   top: 300px;
   left: 600px;
 }
+
+/* responsive */
+
+@media (max-width: 468px){
+  .promo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:#13131a !important;
+    padding: 100px 20px;
+    width: 100%;
+    height: auto;
+  }
+  
+  .promo p{
+    font-size: 2rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: transparent;
+  }
+  
+  .promo h1{
+    display: flex;
+    text-align: center;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 3rem;
+    width: 100%;
+  }
+  
+  .promo span{
+    color: #fff !important;
+    opacity: .5;
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    line-height: 1.8;
+  }
+  
+  .showcase{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-color: transparent;
+    margin-top: 50px;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .showcase img{
+    display: flex;
+    max-width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  #main-promo{
+    position: relative;
+    border-radius: 10px;
+    background-color: transparent;
+  }
+  
+  #play{
+    display: flex;
+    background-color: transparent;
+    max-width: 7%;
+    cursor: pointer;
+    position: absolute;
+    top: 300px;
+    left: 600px;
+  }
+}
