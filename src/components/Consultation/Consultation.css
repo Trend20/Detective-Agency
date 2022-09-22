@@ -76,3 +76,71 @@
     opacity: .8;
   }
 
+  /* RESPONSIVENESS */
+  @media (max-width: 468px){
+    .consultation{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      align-items: flex-start;
+      padding: 100px 30px;
+      background: none;
+      height: auto;
+      background-color: #13131a !important;
+    }
+    
+    .consultation p{
+        color: grey;
+        font-size: 1rem;
+        margin-left: 0px;
+      }
+      
+      .consultation h1{
+        font-size: 3rem;
+        width: 100% ;
+        display: flex;
+        color: #fff;
+        font-weight: 600;
+        margin-left: 0px;
+      }
+    
+      .consultation span{
+        color: #fff;
+        margin-left: 0px;
+        margin-top: 20px;
+        font-size: 1.2rem;
+        line-height: 1.8;
+      }
+    
+      .consultation span a{
+        font-weight: 700;
+      }
+    
+      .consultation form{
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        width: 100%;
+      }
+    
+      .consultation form input,
+      .consultation form button{
+        margin-top: 22px !important;
+        width: 100%;
+      }
+    
+      .consultation form button{
+        background-color: rgb(56, 101, 233);
+        color: #fff;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-weight: 600;
+      }
+    
+      .consultation form button:hover{
+        background: rgb(15, 167, 218);
+        transition: .3s;
+        opacity: .8;
+      }
+  }

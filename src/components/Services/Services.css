@@ -58,3 +58,73 @@ h1{
   background: transparent;
   height: 100%;
 }
+
+
+/* RESPONSIVE */
+@media (max-width: 468px){
+  .services{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 100px 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 0px !important;
+  }
+  
+  p{
+    color: grey;
+    font-size: 1.2rem !important;
+    font-weight: 700;
+  }
+  
+  h1{
+    font-size: 3rem;
+    width: 100%;
+    display: flex;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+  
+  .details-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+  }
+  
+  .service{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 25px;
+    height: 250px;
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+  
+  .service img{
+    max-width: 50%;
+    height: 100%;
+    background: transparent;
+  }
+  
+  .service h3{
+    margin-top: 5px;
+    height: 100%;
+    margin-top: 20px;
+    font-size: 1rem;
+  }
+  
+  .service p{
+    font-size: 1rem !important;
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    line-height: 1.2;
+    color: #fff;
+    opacity: 1;
+    font-weight: 300;
+  }
+}
