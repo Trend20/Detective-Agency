@@ -5,7 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Hind Vadodara', sans-serif;
-  background: #222;
+  background: #13131a;
   overflow-x: hidden;
 }
 
@@ -33,4 +33,43 @@
   color: #fff;
   font-weight: 200 !important;
   background-color: transparent;
+}
+
+
+@media (max-width: 468px){
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hind Vadodara', sans-serif;
+    background: #13131a;
+    overflow-x: hidden;
+  }
+  
+  .footer{
+    background-color: #13131a !important;
+    padding: 100px;
+    width: 100%;
+  }
+  
+  .footer hr{
+    width: 100%;
+    margin: auto;
+  }
+  
+  .footer-text{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color: transparent;
+  }
+  
+  .footer-text p{
+    color: #fff;
+    font-weight: 200 !important;
+    background-color: transparent;
+  }
+  
 }
