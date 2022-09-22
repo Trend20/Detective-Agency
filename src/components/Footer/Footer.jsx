@@ -26,6 +26,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <div className="divider"></div>
       <div className="footer-text">
           <p>© Created by DevEnock</p>
           <p>All rights Reserved</p>
