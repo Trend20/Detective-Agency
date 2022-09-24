@@ -67,15 +67,14 @@ span{
 }
 
 .icon{
-  margin-right: 10px;
-  background: rgb(56, 101, 233);
-  cursor: pointer;
-  color: black;
+  background-color: #66bbff;
+  margin-right: 20px;
+  border: none;
+  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px;
-  border-radius: 50%;
+  cursor: pointer;
 }
 
 
