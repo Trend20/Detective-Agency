@@ -1,3 +1,4 @@
+import Header from '../Header/Header';
 import './Contacts.css';
 
 const Contacts = () => {
@@ -12,8 +13,7 @@ const Contacts = () => {
       </form>
 
       <div className="contact-description">
-        <p id='top'>Request</p>
-        <h1>Contacts</h1>
+        <Header subHeading="Request" mainHeading="Contacts" />
         <span className='top'>
           If you have any questions or want to schedule a meeting with our private investigator, fill out the form, please.
         </span>

@@ -1,3 +1,4 @@
+import Header from '../Header/Header';
 import './Partners.css'
 
 const statsArray = [
@@ -27,8 +28,7 @@ const Partners = () => {
   return (
     <div className='partners'>
       <div className="partners-description">
-        <p>Numbers</p>
-        <h1>We're Proud of</h1>
+        <Header subHeading="Numbers" mainHeading="We're Proud of" />
         <p id='mission'>
           Our mission is to provide outstanding and reliable professional <strong>private investigation services</strong> anywhere in the world. 
           We work around the clock to report our findings in a timely and accountable manner. 

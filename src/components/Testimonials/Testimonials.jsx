@@ -1,3 +1,4 @@
+import Header from '../Header/Header';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import './Testimonials.css';
@@ -6,8 +7,7 @@ const Testimonials = () => {
   return (
     <div className='testimonials'>
       <div className="testimonials-intro">
-        <p>Our Clients</p>
-        <h1>Testimonials</h1>
+        <Header subHeading="Our Clients" mainHeading="Testimonials" />
         <span>
           At ELPS, we have a genuine passion for protecting people and for service. 
           Our detective agency employs <strong>highly qualified private investigators</strong> to service the needs of our clients.

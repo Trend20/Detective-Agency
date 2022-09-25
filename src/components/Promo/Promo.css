@@ -8,11 +8,14 @@
   width: 100%;
 }
 
-.promo p{
-  font-size: 2rem;
+.promo h5{
   display: flex;
   text-align: center;
   background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: auto;
 }
 
 .promo h1{
@@ -21,8 +24,7 @@
   background-color: transparent;
   justify-content: center;
   align-items: center;
-  margin-top: -8px;
-  font-size: 3rem;
+  width: 100%;
 }
 
 .promo span{
@@ -79,14 +81,14 @@
     height: auto;
   }
   
-  .promo p{
-    font-size: 2rem;
+  .promo h5{
     display: flex;
     text-align: center;
+    background-color: transparent;
     justify-content: center;
     align-items: center;
     width: 100%;
-    background-color: transparent;
+    margin: auto;
   }
   
   .promo h1{
@@ -95,8 +97,6 @@
     background-color: transparent;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
-    font-size: 3rem;
     width: 100%;
   }
   
