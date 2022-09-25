@@ -67,16 +67,6 @@
   width: 50%;
 }
 
-/* p, 
-h3,
-h1,
-span,
-div,
-strong,
-form{
-  background-color: transparent !important;
-} */
-
 p{
   font-size: 1rem !important;
   background-color: transparent !important;
@@ -94,15 +84,15 @@ p{
 
 .top{
   color: #fff;
-  margin-top: 20px;
+  margin-top: 10px;
   font-size: 1.5rem;
   width: 80%;
   font-weight: 300;
 }
 
 #main{
-  margin-top: 50px !important;
-  font-size: 1.2rem;
+  margin-top: 20px !important;
+  font-size: 1rem;
   width: 80%;
   font-weight: 100 !important;
 }
@@ -123,25 +113,29 @@ strong{
 .detail{
   display: flex;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 5px !important;
   width: 70%;
   background-color: transparent !important;
 }
 
 .detail h3{
   color: #fff;
+  font-size: 1rem;
   width: 30%;
   background-color: transparent !important;
+  margin-top: 0px !important;
 }
 
 .detail span{
   width: 70%;
+  margin-top: 0px !important;
 }
 
 .detail span p{
   color: #fff;
   opacity: .7;
   font-weight: 300;
+  margin-top: 0px !important;
 }
 
 
