@@ -101,17 +101,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 30px;
-    height: 600px;
+    padding: 50px 30px;
   }
   
   .top-footer-content{
     display: flex;
     align-items: center;
     width: 100%;
-    justify-content: center;
-    flex-direction: column !important;
-    height: 100%;
+    justify-content: space-between;
   }
   
   .footer-logo{
@@ -133,7 +130,6 @@
     width: 70%;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
   }
   
   .footer-nav ul{
@@ -149,10 +145,27 @@
   
   .footer-icons{
     display: flex;
-    width: 30%;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+  }
+  
+  .icon{
+    background-color: #66bbff;
+    margin-right: 20px;
+    border: none;
+    border-radius: 50%;
+    padding: 5px;
+    display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 50px;
+    cursor: pointer;
+    transition: ease 0.3s;
+  }
+  
+  .icon:hover{
+    background-color: #389def;
   }
   
   .divider{
@@ -167,19 +180,13 @@
   .footer-text{
     display: flex;
     width: 100%;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    overflow: hidden;
-    padding: 30px 0px;
-  }  
-
-  .footer-text p{
-    font-size: 1rem !important;
-    opacity: 1 !important;
-    font-weight: 300;
-    overflow: hidden;
-    line-height: 1.5;
-    margin-top: 15px;
+    justify-content: space-between;
+    padding: 20px 70px;
   }
+  
+  .footer-text p{
+    font-size: 1rem;
+    opacity: .8;
+  }
+  
 }
