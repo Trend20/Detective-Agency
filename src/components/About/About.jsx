@@ -1,3 +1,4 @@
+import Header from '../Header/Header';
 import './About.css';
 
 const About = () => {
@@ -7,8 +8,7 @@ const About = () => {
         <img src="/img/about.webp" alt="about" />
       </div>
       <div className="about-description">
-        <p>About Us</p>
-        <h1>Who We Are</h1>
+        <Header subHeading="About Us" mainHeading="Who We Are" />
         <div className="about-details">
         <p>
           <strong>ELPS Private Detective Agency</strong> is a dynamic team of professionals with over 30 years of 

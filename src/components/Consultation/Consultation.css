@@ -15,18 +15,13 @@
 .consultation p{
     color: grey;
     font-size: 3rem;
-    margin-left: 100px;
     background: transparent;
   }
   
-  .consultation h1{
-    font-size: 4rem;
-    width: 50% ;
-    display: flex;
-    color: #fff;
-    font-weight: 600;
-    margin-left: 100px;
+  .consultation h1, .consultation h5{
+    width: 50%;
     background: transparent;
+    margin-left: 100px;
   }
 
   .consultation span{
