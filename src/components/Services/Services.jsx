@@ -1,4 +1,6 @@
+import Header from '../Header/Header';
 import './Services.css';
+
 
 const services=[
   {
@@ -36,8 +38,7 @@ const services=[
 const Services = () => {
   return (
     <div className='services'>
-      <p>What we do</p>
-      <h1>Our Practice Areas</h1>
+      <Header subHeading="What we do" mainHeading="Our Practice Areas" />
       <div className="details-container">
         {
           services.map((service, index) =>(

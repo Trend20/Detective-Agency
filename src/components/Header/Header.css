@@ -1,0 +1,26 @@
+.header-section{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 60px 0px;
+}
+
+.header-section h5{
+  color: rgb(97,97,100);
+  font-size: 22px!important;
+  line-height: 1.36!important;
+  letter-spacing: 0!important;
+}
+
+.header-section h1{
+  color: #fff;
+  display: flex;
+  font-size: 50px;
+  line-height: 1.14;
+  font-family: Poppins,sans-serif;
+  font-weight: 700;
+  text-transform: none;
+  text-decoration: none;
+  font-style: normal;
+  letter-spacing: 0;
+}
