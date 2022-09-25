@@ -48,10 +48,27 @@
 
 .footer-icons{
   display: flex;
-  width: 30%;
+  width: 20%;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.icon{
+  background-color: #66bbff;
+  margin-right: 20px;
+  border: none;
+  border-radius: 50%;
+  padding: 5px;
+  display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 50px;
+  cursor: pointer;
+  transition: ease 0.3s;
+}
+
+.icon:hover{
+  background-color: #389def;
 }
 
 .divider{

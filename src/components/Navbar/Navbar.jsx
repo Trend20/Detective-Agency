@@ -18,9 +18,9 @@ const Navbar = () => {
           }
         </ul>
         <div className="nav-icons">
-          <FaFacebookF  className='icon'  size="20px" color="#1e1e28" fill='#1e1e28' />
-          <FaInstagram  className='icon'    size="20px" color="#1e1e28" fill='#1e1e28'/>
-          <FaYoutube className='icon'    size="20px" color="#1e1e28" fill='#1e1e28'/>
+          <FaFacebookF  className='icon'  size="25px" color="#1e1e28" fill='#1e1e28' />
+          <FaInstagram  className='icon'    size="25px" color="#1e1e28" fill='#1e1e28'/>
+          <FaYoutube className='icon'    size="25px" color="#1e1e28" fill='#1e1e28'/>
         </div>
       </div>
     </div>
