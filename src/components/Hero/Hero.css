@@ -5,6 +5,8 @@
   padding: 100px;
   width: 100%;
   background: url(/public/img/homepage.webp);
+  background-repeat: no-repeat;
+  object-fit: cover;
   color: #fff;
 }
 
