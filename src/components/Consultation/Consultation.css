@@ -55,6 +55,8 @@
     border-radius: 50px;
     margin-top: 22px !important;
     width: 90%;
+    font-weight: 300;
+    opacity: .6;
   }
 
   .consultation form button{
