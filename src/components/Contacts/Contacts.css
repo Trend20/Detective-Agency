@@ -35,6 +35,8 @@
   color: #fff !important;
   font-weight: 200;
   border-bottom: 2px solid rgb(71, 69, 69);
+  box-sizing: border-box;
+  resize: none;
 }
 
 
@@ -93,7 +95,7 @@ p{
 }
 
 #main{
-  margin-top: 20px !important;
+  margin-top: 50px !important;
   font-size: 1rem;
   width: 80%;
   font-weight: 100 !important;
@@ -115,7 +117,7 @@ strong{
 .detail{
   display: flex;
   align-items: center;
-  margin-top: 5px !important;
+  margin-top: 12px !important;
   width: 70%;
   background-color: transparent !important;
 }
@@ -134,10 +136,10 @@ strong{
 }
 
 .detail span p{
-  color: #fff;
-  opacity: .7;
-  font-weight: 300;
-  margin-top: 0px !important;
+  color: #fff !important;
+  opacity: .7 !important;
+  font-weight: 300 !important;
+  margin-top: -7px !important;
 }
 
 
