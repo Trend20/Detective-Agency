@@ -32,7 +32,9 @@
   width: 100%;
   outline: none;
   border: none;
-  border-bottom: 1px solid #fff;
+  color: #fff !important;
+  font-weight: 200;
+  border-bottom: 2px solid rgb(71, 69, 69);
 }
 
 
