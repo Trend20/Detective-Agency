@@ -7,11 +7,6 @@
   margin-left: 100px;
 }
 
-p{
-  color: grey;
-  font-size: 3rem;
-}
-
 h1{
   font-size: 4rem;
   width: 100%;
@@ -58,6 +53,9 @@ h1{
   font-size: 1rem;
   background: transparent;
   height: 100%;
+  color: #fff;
+  opacity: .6;
+  font-weight: 300;
 }
 
 
