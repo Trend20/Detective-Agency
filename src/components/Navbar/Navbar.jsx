@@ -42,7 +42,7 @@ const Navbar = () => {
         <ul className={click ? 'nav-options active' : 'nav-options'} id="navbar">
           {
             navItems.map((item, index) =>(
-              <li key={index}><span><Link to="about" spy={true} smooth={true}>0{index + 1}.</Link></span>{item}</li>
+              <li key={index}><span><Link to={item.sectionID} onClick={closeMobileMenu} spy={true} smooth={true}>0{index + 1}.</Link></span>{item.val}</li>
             ))
           }
         </ul>
